@@ -70,11 +70,11 @@ rag_note_app/
 │   │   │   └── chat.py               # POST /ask, GET /conversations/{id}
 │   │   ├── services/
 │   │   │   ├── pdf_parser.py         # PyMuPDF: text + page numbers
-│   │   │   ├── chunking.py           # ← YOUR JOB (stub + TODO)
+│   │   │   ├── chunking.py           # In Progress
 │   │   │   ├── embedder.py           # OpenAI embedding calls
 │   │   │   ├── vector_store.py       # pgvector INSERT + similarity search
 │   │   │   ├── rag.py                # retrieve chunks → call Claude
-│   │   │   └── prompt.py             # ← YOUR JOB (stub + TODO)
+│   │   │   └── prompt.py             # In Progress
 │   │   ├── models/
 │   │   │   └── database.py           # User, Document, Chunk, Conversation, Message
 │   │   ├── schemas/
