@@ -199,13 +199,3 @@ Ask a question about a document.
 }
 ```
 
----
-
-## Modules You Implement
-
-| Module | What to build | Concepts to learn |
-|--------|--------------|-------------------|
-| `chunking.py` | Split extracted text into overlapping chunks | Sliding window, token counting, sentence boundaries |
-| `prompt.py` | System + user prompt templates for RAG | Context stuffing, citation instructions, hallucination prevention |
-
-See [`ARCHITECTURE.md`](ARCHITECTURE.md) for design guidance on both.
